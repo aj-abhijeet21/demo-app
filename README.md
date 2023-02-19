@@ -28,6 +28,13 @@ TailWindCSS for CSS styling
 ChartJS for Bar Chart
 Prettier for code formatting(dev dependency)
 
+# Screenshots
+
+![Alt Screenshot1](/screenshots/Screenshot1.png 'Screenshot 1')
+![Alt Screenshot2](/screenshots/Screenshot2.png 'Screenshot 2')
+![Alt Screenshot3](/screenshots/Screenshot3.png 'Screenshot 3')
+![Alt Screenshot4](/screenshots/Screenshot4.png 'Screenshot 4')
+
 ## Available Scripts
 
 In the project directory, you can run:
