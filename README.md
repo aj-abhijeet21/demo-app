@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# An SPA that displays employee's data
+
+Please refer to the file EmployeeData.json for source data.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Table View:
+
+The first tab displays a table view of the data where salaries are aggregated by location. (Here aggregate can be referred as average of the currSalary). For each location, aggregated salary across different employees is displayed in the table. The columns are (Location, Salary).
+
+# Chart View:
+
+The second tab displays a bar chart of the dataset where the x axis represents the locations and the y axis represents aggregated salaries.
+
+# Search Feature:
+
+A search capability has been developed using search box for all the locations from the dataset. By default, all locations are displayed on the chart and table. When searching a location, both chart and table show the data relevant to the selected locations.
+
+# Packages used for this project:
+
+TailWindCSS for CSS styling
+ChartJS for Bar Chart
+Prettier for code formatting(dev dependency)
 
 ## Available Scripts
 
