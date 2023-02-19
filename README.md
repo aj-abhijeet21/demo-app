@@ -4,6 +4,12 @@ Please refer to the file EmployeeData.json for source data.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Features
+
+- [x] Table View
+- [x] Chart View
+- [x] Search Feature
+
 # Table View:
 
 The first tab displays a table view of the data where salaries are aggregated by location. (Here aggregate can be referred as average of the currSalary). For each location, aggregated salary across different employees is displayed in the table. The columns are (Location, Salary).
