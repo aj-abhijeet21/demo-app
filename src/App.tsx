@@ -2,20 +2,9 @@ import { useState } from 'react'
 import Delta from './Components/Delta'
 import { kFormatter } from './Utils/CurrencyFormatter'
 import employeeData from './EmployeeData.json'
+import { SalaryType } from './Utils/Types'
+import Chart from './Components/Chart'
 
-type EmployeeType = {
-  firstName: string
-  lastName: string
-  location: string
-  prevSalary: string
-  currSalary: string
-  org: string
-}
-type SalaryType = {
-  salary: number
-  location: string
-  delta: number
-}
 function App() {
   const [activeToggle, setActiveToggle] = useState('table')
   let distinctLocations: string[] = []
@@ -113,7 +102,7 @@ function App() {
         </div>
       )}
 
-      {activeToggle === 'chart' && <div>Chart</div>}
+      {activeToggle === 'chart' && <Chart data={data} />}
     </div>
   )
 }
